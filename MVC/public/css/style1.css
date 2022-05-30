@@ -1,0 +1,18 @@
+body{
+	font-family: time Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 18px;
+	background:url("./images/trending vdos/backgroud.png") repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	background-color: blue;
+	height: 64px;
+	
+}
+.mider{
+	 height: 820px; background-color: blanchedalmond;
+}
+.footer{
+	height: 16px; background-color: brown;
+}
