@@ -1,0 +1,212 @@
+
+.wrapper{
+	border:1px solid #000;
+	height: auto;
+	width: 100%;
+	margin:0 auto;
+}
+i.fa.fa-plus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-minus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-plus.fa-style:hover {
+    color: brown;
+}
+i.fa.fa-minus.fa-style:hover {
+    color: brown;
+}
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin:0 auto;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 30%;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 49%;
+    margin:0 10px;
+}
+input.themgiohang {
+    border: none;
+    background: brown;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header{
+   width: auto;
+}
+.menu{
+    border: 1px solid #000000;
+    height: 60px;
+    width: 100%;
+    background: #000000;
+}
+ul.list_menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 30px;
+    display: inline;
+}
+ul.list_menu li {
+
+    float: left;
+    margin: 7px;
+    padding: 5px;
+    width: 150px;
+   
+    text-align: center;
+    margin-left: 15px;
+}
+ul.list_menu li:hover{
+    background-color: rgb(168, 94, 94);
+}
+ul.list_menu li a{
+    text-decoration: none;
+    color: #e5ff00;
+    font-weight: bold; 
+}
+ul{
+    width: 180px;
+    margin: 5px;
+    padding: 7px;
+    padding-top: 0px;
+    list-style: none;
+}
+.menu ul  li{
+    display: inline-block;
+    position: relative;
+
+}
+.menu ul li  ul {
+    display: none;
+    position: absolute;
+    background: rgb(138, 94, 37);
+}
+.menu ul li:hover ul{
+    display: block;
+    background: rgb(0, 0, 0);
+}
+ul.baiviet {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 90%;
+}
+ul.baiviet li {
+  
+   border:1px solid #ddd;
+   padding: 10px;
+   width: 100%;
+}
+#main{
+	border:1px solid  #ffffff;
+	height: 1080px;
+	width: 100%;
+}
+
+.maincontent{
+	
+	height: auto;
+	width: 95%;
+	margin-top:5px;
+	margin-left:5px;
+	float: right;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li img {
+    height: 190px;
+
+}
+ul.product_list li {
+    width: 15%;
+    border: 1px solid #ddd;
+    margin: 5px;
+    float: left;
+   
+    height: 300px;
+}
+ul.product_list li a {
+    text-decoration: none;
+}
+ul.product_list li img {
+    width: 100%;
+}
+p.price_product {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.title_product {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer{
+	border:1px solid #ff1a8c;
+	height: 150px;
+	width: 100%;
+	background: #6e6e6e;
+}
+p.footer_copyright {
+    text-align: center;
+    color: #000;
+}
+.clear{
+	clear: both;
+}
+
+/* Tabs */
+.tabs {
+  width: 100%;
+  background-color: #632121;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+}
+ul#tabs-nav {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+}
+ul#tabs-nav li {
+  float: left;
+  font-weight: bold;
+  margin-right: 2px;
+  padding: 8px 10px;
+  border-radius: 5px 5px 5px 5px;
+  /*border: 1px solid #d5d5de;
+  border-bottom: none;*/
+  cursor: pointer;
+}
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active {
+  background-color: #08E;
+}
+#tabs-nav li a {
+  text-decoration: none;
+  color: #FFF;
+}
+.tab-content {
+  padding: 10px;
+  border: 5px solid #000000;
+  background-color: #FFF;
+}

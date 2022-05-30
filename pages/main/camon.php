@@ -1,0 +1,1 @@
+<p>Cám ơn bạn đã tin tưởng chúng tôi!</p>
